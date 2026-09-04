@@ -1,0 +1,66 @@
+<!--
+  iOS Info.plist additions reference for Simon's Solutions
+  Location after `npx cap add ios`: ios/App/App/Info.plist
+  
+  Merge these keys into the Capacitor-generated Info.plist.
+  Do NOT replace the entire file — only add the keys below that are missing.
+-->
+
+<!--
+  ═══════════════════════════════════════════════════════════════
+  BUNDLE IDENTITY
+  ═══════════════════════════════════════════════════════════════
+  CFBundleIdentifier: com.simonssolutions.app
+  CFBundleDisplayName: Simon's Solutions
+  CFBundleName: SimonsSolutions
+  CFBundleVersion: 1
+  CFBundleShortVersionString: 1.0.0
+  
+  ═══════════════════════════════════════════════════════════════
+  PERMISSIONS (add only what the app uses)
+  ═══════════════════════════════════════════════════════════════
+  
+  <key>NSCameraUsageDescription</key>
+  <string>Simon's Solutions uses your camera to capture math, physics, and chemistry problems for solving.</string>
+  
+  <key>NSPhotoLibraryUsageDescription</key>
+  <string>Simon's Solutions accesses your photo library to import images of problems for solving.</string>
+  
+  ═══════════════════════════════════════════════════════════════
+  DEEP LINKS — Custom URL Scheme
+  ═══════════════════════════════════════════════════════════════
+  
+  <key>CFBundleURLTypes</key>
+  <array>
+    <dict>
+      <key>CFBundleURLName</key>
+      <string>com.simonssolutions.app</string>
+      <key>CFBundleURLSchemes</key>
+      <array>
+        <string>simonssolutions</string>
+      </array>
+    </dict>
+  </array>
+  
+  ═══════════════════════════════════════════════════════════════
+  ASSOCIATED DOMAINS — Universal Links (HTTPS deep links)
+  ═══════════════════════════════════════════════════════════════
+  Add in Xcode → Signing & Capabilities → + Capability → Associated Domains:
+  
+  applinks:simonssolutions.com
+  applinks:www.simonssolutions.com
+  
+  Then host the Apple App Site Association file at:
+  https://www.simonssolutions.com/.well-known/apple-app-site-association
+  (see public/.well-known/apple-app-site-association in this project)
+  
+  ═══════════════════════════════════════════════════════════════
+  APP TRANSPORT SECURITY
+  ═══════════════════════════════════════════════════════════════
+  
+  <key>NSAppTransportSecurity</key>
+  <dict>
+    <key>NSAllowsArbitraryLoads</key>
+    <false/>
+  </dict>
+-->

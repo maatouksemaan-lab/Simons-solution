@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Android strings resource reference for Simon's Solutions
+  Location after `npx cap add android`: android/app/src/main/res/values/strings.xml
+-->
+<resources>
+    <string name="app_name">Simon's Solutions</string>
+    <string name="title_activity_main">Simon's Solutions</string>
+    <string name="package_name">com.simonssolutions.app</string>
+    <string name="custom_url_scheme">simonssolutions</string>
+</resources>

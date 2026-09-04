@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Android colors reference for Simon's Solutions
+  Location after `npx cap add android`: android/app/src/main/res/values/colors.xml
+-->
+<resources>
+    <color name="colorPrimary">#6366f1</color>
+    <color name="colorPrimaryDark">#0f172a</color>
+    <color name="colorAccent">#6366f1</color>
+    <color name="splash_background">#0f172a</color>
+</resources>

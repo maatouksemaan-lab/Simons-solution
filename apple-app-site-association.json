@@ -1,0 +1,20 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "TEAMID.com.simonssolutions.app",
+                "paths": [
+                    "/auth/callback*",
+                    "/reset-password*",
+                    "/forgot-password*",
+                    "/solver-screen*",
+                    "/user-dashboard*",
+                    "/subscription*",
+                    "/payment*",
+                    "/*"
+                ]
+            }
+        ]
+    }
+}
