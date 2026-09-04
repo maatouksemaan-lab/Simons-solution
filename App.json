@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "SimonsSolution",
+    "slug": "simons-solution",
+    "version": "1.0.0",
+    "platforms": ["android"],
+    "android": {
+      "package": "com.maatouk.simonsolution"
+    }
+  }
+}
